@@ -1,0 +1,25 @@
+# Spotify Music Intelligence — .gitignore
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+.DS_Store
+*.log
+Thumbs.db
+
+# Generated data & model artifacts (re-created by scripts)
+data/spotify_cleaned.csv
+models/*.pkl
+outputs/*.csv
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user

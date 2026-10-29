@@ -1,0 +1,11 @@
+# Place your screenshots here after deployment
+# 
+# Required files:
+#   overview.png       — Overview page screenshot
+#   model-eval.png     — Model Evaluation page screenshot
+#   prediction.png     — Hit Prediction page screenshot
+#
+# Reference in README.md:
+#   ![Overview](screenshots/overview.png)
+#   ![Model Eval](screenshots/model-eval.png)
+#   ![Prediction](screenshots/prediction.png)
