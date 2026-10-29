@@ -16,7 +16,6 @@ An interactive, premium-styled ML dashboard analyzing **114,000+ Spotify tracks*
 
 The dashboard predicts whether a track is a "hit" (popularity > 50) using 9 audio features, and presents the findings through 7 fully custom-styled pages that feel like a music streaming app — not a generic data tool.
 
-**Live Demo:** _[Add Streamlit Cloud URL after deployment]_
 
 ---
 
