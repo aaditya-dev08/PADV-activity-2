@@ -243,15 +243,6 @@ spotify-intelligence/
 
 > **Alternative:** Deploy on Render using the `Procfile`. Set environment variables in the Render dashboard.
 
----
-
-## 📸 Screenshots
-
-| Overview | Model Evaluation | Hit Prediction |
-|----------|-----------------|----------------|
-| ![Overview](screenshots/overview.png) | ![Model Eval](screenshots/model-eval.png) | ![Prediction](screenshots/prediction.png) |
-
-> Take screenshots after deploying and save them in `screenshots/`
 
 ---
 
@@ -271,4 +262,3 @@ This project is licensed under the **MIT License** — free to use for education
 
 ---
 
-*Built with ❤️ using Streamlit, Plotly, and Scikit-learn*
