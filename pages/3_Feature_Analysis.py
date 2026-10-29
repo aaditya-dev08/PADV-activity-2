@@ -50,9 +50,8 @@ if active_tab == "🔗  Relationships":
     )
     apply_theme(fig, height=500, title="Energy vs Danceability — 5,000 track sample, size & color = Popularity")
     fig.update_layout(coloraxis_colorbar=dict(
-        title="Popularity",
+        title=dict(text="Popularity", font=dict(color="#A0A8B8")),
         tickfont=dict(color="#A0A8B8"),
-        font=dict(color="#A0A8B8"),
     ))
     st.plotly_chart(fig, use_container_width=True)
 

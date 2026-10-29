@@ -831,3 +831,32 @@ header                           { visibility: hidden; }
 }
 .app-footer strong { color: rgba(255,255,255,0.65); font-weight: 600; }
 
+/* ── SIDEBAR TOGGLE — always visible ────────────────────────────── */
+/* The collapse/expand arrow button must always be reachable         */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: rgba(29,185,84,0.12) !important;
+    border-radius: 0 8px 8px 0 !important;
+    border: 1px solid rgba(29,185,84,0.25) !important;
+    border-left: none !important;
+    transition: background 0.2s ease, opacity 0.2s ease !important;
+    z-index: 9999 !important;
+}
+[data-testid="collapsedControl"]:hover {
+    background: rgba(29,185,84,0.24) !important;
+}
+/* Sidebar toggle arrow icon — keep it green */
+[data-testid="collapsedControl"] svg {
+    color: #1DB954 !important;
+    fill: #1DB954 !important;
+}
+/* Sidebar expand button (when sidebar is open — the < arrow) */
+[data-testid="baseButton-header"] {
+    color: rgba(255,255,255,0.55) !important;
+    transition: color 0.2s !important;
+}
+[data-testid="baseButton-header"]:hover {
+    color: #1DB954 !important;
+}
